@@ -1,0 +1,191 @@
+body {
+    background-color: #FFFFC7;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    
+}
+h1, h3 {
+    font-family: 'Parisienne', cursive;
+    font-size: 60px;
+    color: #233E8B;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+.trip {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Parisienne', cursive;;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+.one {
+    background-image: url('Italy3.jpg');
+}
+.two {
+    background-image:url('Japan.jpg');
+}
+.tree {
+    background-image: url('Paris.jpg');
+}
+.four {
+    background-image:url('Spain.jpg');
+}
+.five {
+    background-image:url('Austria.jpg');
+}
+.six {
+    background-image:url('great britain.jpg');
+}
+
+
+.selected{
+    flex: 4;
+}
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+.selected .day {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+h4 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    background-color: whitesmoke;
+    color: #233E8B;
+    font-size: 0;
+    
+}
+.par {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: #A9F1DF;
+    color: #233E8B;
+    font-size: 0;
+}
+
+.day {
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    background-color: #A9F1DF;
+    color: #233E8B;
+    font-size: 0;
+}
+.price {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    background-color: #FFFFC7;
+    color: #233E8B;
+    font-size: 0;
+}
+label{
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    color: #233E8B;
+}
+.text-input{
+    background-color: #FFFFC7;
+    border: none;
+    padding: 12px, 20px;
+}
+.btn{
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    background-color: #1EAE98;
+    flex: 1;
+}
+
+.www{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    font-size: 40px;
+    font-family: 'Parisienne', cursive;
+    color: #233E8B;
+    text-align: center;
+}
+
+.sale {
+    background-color: #1EAE98;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    border: none;
+    border-radius: 10%;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Parisienne', cursive;
+    font-size: 20px; 
+}
+
+
+.animation{
+    text-align: center;
+    }
+
+
+@media all and (max-width: 800px){
+    .container{
+        flex-direction: column;
+        height: 100vh;
+        }
+        h1, h3, p{
+            font-size: 35px;
+        }
+        .selected h4{
+            font-size: 30px;
+        }
+}
+
+@media all and (max-width: 500px){
+    h1,h3, p{
+        font-size: 30px;
+    }
+    .selected h4{
+    font-size: 15px;
+    }
+    .selected .par {
+    font-size: 15px;
+    }
+    .selected .day {
+        font-size: 15px;
+    }
+    .selected .price {
+        font-size: 15px;
+    }
+    #Snacks{
+        width: 250px;
+        height: 300px;
+    }
+}
