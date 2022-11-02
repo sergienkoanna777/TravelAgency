@@ -2,7 +2,7 @@
   <h1>TravelAgency</h1>
 </div>
 
-<img src="./.jpg" alt="Image" width="auto">
+<img src="./TravelAgency.jpg" alt="Image" width="auto">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
